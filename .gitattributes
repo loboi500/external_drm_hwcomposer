@@ -1,0 +1,15 @@
+OWNERS filter=lfs diff=lfs merge=lfs -text
+Android.bp filter=lfs diff=lfs merge=lfs -text
+compositor filter=lfs diff=lfs merge=lfs -text
+DrmHwcTwo.cpp filter=lfs diff=lfs merge=lfs -text
+include filter=lfs diff=lfs merge=lfs -text
+backend filter=lfs diff=lfs merge=lfs -text
+METADATA filter=lfs diff=lfs merge=lfs -text
+NOTICE filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+utils filter=lfs diff=lfs merge=lfs -text
+bufferinfo filter=lfs diff=lfs merge=lfs -text
+drm filter=lfs diff=lfs merge=lfs -text
+DrmHwcTwo.h filter=lfs diff=lfs merge=lfs -text
+MODULE_LICENSE_APACHE2 filter=lfs diff=lfs merge=lfs -text
+tests filter=lfs diff=lfs merge=lfs -text

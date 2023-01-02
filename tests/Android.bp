@@ -1,25 +1,3 @@
-
-
-package {
-    // See: http://go/android-license-faq
-    // A large-scale-change added 'default_applicable_licenses' to import
-    // all of the 'license_kinds' from "external_drm_hwcomposer_license"
-    // to get the below license kinds:
-    //   SPDX-license-identifier-Apache-2.0
-    default_applicable_licenses: ["external_drm_hwcomposer_license"],
-}
-
-cc_test {
-    name: "hwc-drm-tests",
-
-    srcs: ["worker_test.cpp"],
-
-    vendor: true,
-    header_libs: ["libhardware_headers"],
-    static_libs: ["libdrmhwc_utils"],
-    shared_libs: ["hwcomposer.drm"],
-    include_dirs: [
-        "external/drm_hwcomposer/include",
-        "external/drm_hwcomposer",
-    ],
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:00cb07cb1292a3719dec891c6e3fcb0c272c8b4571a1a42be7ed49ce99598531
+size 669
